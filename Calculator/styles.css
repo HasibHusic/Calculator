@@ -1,0 +1,83 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(189, 188, 188);
+    border: 5px solid black;
+}
+
+h1 {
+    padding: 30px 0 0 15px;
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h2 {
+    display: flex;
+    justify-content: end;
+    padding: 10px 40px 10px 0;
+    border: 2px solid black;
+    margin: 15px 15px;
+    background-color: azure;
+}
+
+h3 {
+    padding: 10px 0 15px 15px;
+    margin: 0;
+}
+
+.increment-btn {
+    margin:0 5px 15px 5px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    font-weight: bold;
+}
+
+.increment-btn:hover {
+    background-color: lightblue;
+}
+
+.btns {
+    display: grid;
+    justify-content: space-around;
+    flex-direction: column;
+    grid-template-columns: 75px 75px 75px 75px;
+
+}
+
+.group-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 15px 15px
+}
+
+.group-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 15px 15px
+}
+
+.group-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 15px 15px
+}
+
+.group-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 15px 15px
+}
